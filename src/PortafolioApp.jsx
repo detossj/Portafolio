@@ -1,3 +1,4 @@
+import { useRef } from "react"
 import { AboutMe } from "./pages/AboutMe"
 import { ContactMe } from "./pages/ContactMe"
 import { LanguagesAndTools } from "./pages/LanguagesAndTools"
@@ -6,28 +7,35 @@ import { Proyects } from "./pages/Proyects"
 
 
 export const PortafolioApp = () => {
-  return (
-    <div>
-        <section style={{ height: '100vh'}} >
-            <Presentation/>
-        </section>
 
-        <section style={{ height: '100vh', backgroundColor: 'lightgreen' }} >
-            <AboutMe/>
-        </section>
+    const contactRef = useRef( null );
 
-        <section style={{ height: '100vh', backgroundColor: 'lightcoral' }} >
-            <LanguagesAndTools/>
-        </section>
+    const scrollToContact = () => {
+        contactRef.current.scrollIntoView({ behavior: "smooth" });
+    };
 
-        <section style={{ height: '100vh', backgroundColor: 'lightyellow' }} >
-            <Proyects/>
-        </section>
+    return (
+        <div>
+            <section style={{ height: '100vh'}} >
+                <Presentation onClick={ scrollToContact }/>
+            </section>
 
-        <section style={{ height: '100vh', backgroundColor: 'lightblue' }}>
-            <ContactMe/>
-        </section>
+            <section style={{ height: '100vh', backgroundColor: 'lightgreen' }} >
+                <AboutMe/>
+            </section>
 
-    </div>
+            <section style={{ height: '100vh', backgroundColor: 'lightcoral' }} >
+                <LanguagesAndTools/>
+            </section>
+
+            <section style={{ height: '100vh', backgroundColor: 'lightyellow' }} >
+                <Proyects/>
+            </section>
+
+            <section style={{ height: '100vh', backgroundColor: 'lightblue' }}>
+                <ContactMe ref={ contactRef }/>
+            </section>
+
+        </div>
   )
 }

@@ -1,7 +1,10 @@
+import { forwardRef } from "react"
 
 
-export const ContactMe = () => {
+export const ContactMe = forwardRef((props, ref) => {
   return (
-    <div>ContactMe</div>
+    <section ref={ref}>
+      <div>ContactMe</div>
+    </section>
   )
-}
+});

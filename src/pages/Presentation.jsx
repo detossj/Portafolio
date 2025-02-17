@@ -3,7 +3,7 @@ import '../styles/presentation/presentation.css';
 
 import Typewriter from 'typewriter-effect';
 
-export const Presentation = () => {
+export const Presentation = ({ onClick }) => {
   return (
     <div>
       <ParticlesBackground />
@@ -20,6 +20,8 @@ export const Presentation = () => {
           />
         </div>
         <h4 className="subtitle">A software developer from Chile</h4>
+
+        <button className="buttonPresentation" onClick={ onClick }>Contact Me</button>
       </div>
     </div>
   );

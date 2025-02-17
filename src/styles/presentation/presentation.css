@@ -15,13 +15,14 @@
     font-weight: bold;
     color: white;  
     text-align: center;
+    margin-top: 30px;
     font-family: 'Press Start 2P', cursive;
     transform: scaleX(0.7);
   }
   
   /* Subtítulo debajo del typewriter */
   .subtitle {
-    position: relative; /*Hay que colocar la posicion en relativa para qur queden arriba del fondo*/
+    position: relative; 
     text-align: center;
     color: gray;
     font-size: 1.5rem;
@@ -29,4 +30,26 @@
     margin-top: 30px;
     font-weight: lighter;
   }
-  
+
+  .buttonPresentation {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background-color: white; 
+    color: black; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: 2px solid black; /* Borde negro */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.buttonPresentation:hover {
+    background-color: gray; 
+    color: white; 
+    transform: scale(1.1);
+}
