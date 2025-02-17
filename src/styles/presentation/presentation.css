@@ -1,0 +1,32 @@
+
+/* Estilo para la cabecera (header) */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupar toda la altura de la pantalla */
+  }
+  
+  /* Estilo para el contenedor del typewriter */
+  .typewriter-container {
+    position: relative;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;  /* Color personalizado */
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    transform: scaleX(0.7);
+  }
+  
+  /* Subtítulo debajo del typewriter */
+  .subtitle {
+    position: relative;
+    text-align: center;
+    color: gray;
+    font-size: 1.5rem;
+    z-index: 99;
+    margin-top: 30px;
+    font-weight: lighter;
+  }
+  
