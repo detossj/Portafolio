@@ -1,8 +1,8 @@
-import { AboutMe } from "./components/AboutMe"
-import { ContactMe } from "./components/ContactMe"
-import { LanguagesAndTools } from "./components/LanguagesAndTools"
-import { Presentation } from "./components/Presentation"
-import { Proyects } from "./components/Proyects"
+import { AboutMe } from "./pages/AboutMe"
+import { ContactMe } from "./pages/ContactMe"
+import { LanguagesAndTools } from "./pages/LanguagesAndTools"
+import { Presentation } from "./pages/Presentation"
+import { Proyects } from "./pages/Proyects"
 
 
 export const PortafolioApp = () => {

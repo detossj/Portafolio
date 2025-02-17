@@ -1,4 +1,4 @@
-import { ParticlesBackground } from "./ParticlesBackground";
+import { ParticlesBackground } from "../components/ParticlesBackground";
 import '../styles/presentation/presentation.css';
 
 import Typewriter from 'typewriter-effect';
