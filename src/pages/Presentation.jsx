@@ -1,12 +1,11 @@
 import { ParticlesBackground } from "../components/ParticlesBackground";
 import '../styles/presentation/presentation.css';
-
 import Typewriter from 'typewriter-effect';
 
 export const Presentation = ({ onClick }) => {
   return (
     <div>
-      <ParticlesBackground />
+      <ParticlesBackground id="particles1" />
       <div className="header">
         <div className="typewriter-container">
           <Typewriter

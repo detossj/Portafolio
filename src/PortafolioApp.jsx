@@ -7,7 +7,7 @@ import { Proyects } from "./pages/Proyects"
 
 
 export const PortafolioApp = () => {
-
+    
     const contactRef = useRef( null );
 
     const scrollToContact = () => {
@@ -20,11 +20,11 @@ export const PortafolioApp = () => {
                 <Presentation onClick={ scrollToContact }/>
             </section>
 
-            <section style={{ height: '100vh', backgroundColor: 'lightgreen' }} >
+            <section style={{ height: '100vh' }} >
                 <AboutMe/>
             </section>
 
-            <section style={{ height: '100vh', backgroundColor: 'lightcoral' }} >
+            <section style={{ height: '100vh' }} >
                 <LanguagesAndTools/>
             </section>
 

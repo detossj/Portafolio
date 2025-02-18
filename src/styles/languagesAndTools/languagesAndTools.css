@@ -1,0 +1,66 @@
+.languagesAndTools{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    height: 100vh;
+    color: white;
+    margin-top: 30px;
+    padding: 0px;
+}
+.languagesIcons{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 0px;
+    margin-bottom: 30px;
+    
+}
+.toolsIcons{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.languages{
+    margin-top: 20px;
+    font-size: 3rem;
+}
+.tools{
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+.iconWrapper {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+.tooltip {
+    visibility: hidden;
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    white-space: nowrap;
+    transition: visibility 0.2s, opacity 0.2s;
+    opacity: 0;
+}
+  
+.iconWrapper:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+  
