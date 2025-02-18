@@ -1,0 +1,26 @@
+{
+    "pages": [
+
+        {
+            "id": 1,
+            "name": "PokeEsp",
+            "url": "https://pokesp.netlify.app/",
+            "description": "Information page about Pokémon with data from the Pokédex.",
+            "technologies": ["React", "CSS", "PokeAPI"],
+            "repository": "https://github.com/detossj/Pokedex",
+            "status": "finished",
+            "category": "Games"
+        },
+        {
+            "id": 2,
+            "name": "GymPage",
+            "url": "https://gympagedeto.netlify.app/start",
+            "description": "Page for a gym",
+            "technologies": ["React", "CSS"],
+            "repository": "https://github.com/detossj/GymPage",
+            "status": "In development",
+            "category": "Fitness"
+        }
+
+    ]
+}
