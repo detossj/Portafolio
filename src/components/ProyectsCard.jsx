@@ -1,5 +1,3 @@
-
-
 export const ProyectsCard = ({
   name, 
   url,
@@ -8,18 +6,20 @@ export const ProyectsCard = ({
   repository,
   status,
   category
-
 }) => {
   return (
-    <div className="card">
+    <div className="proyect-card">
       <h1>{name}</h1>
-      <button>
-        <a href={url}><img className="imgpage" src={img} alt={name} /></a>
+      <button className="proyect-button">
+        <a href={url}>
+          <img className="proyect-img" src={img} alt={name} />
+        </a>
       </button>
-      <p>{description}</p>
-      <a href={repository}>Repository</a>
-      <h4>Status: {status}</h4>
-      <h4>{category}</h4>
+      <p className="proyect-description">{description}</p>
+      <a href={repository} className="proyect-repository">Repository</a><br />
+      <a href={url} className="proyect-link">Go to site</a>
+      <h4 className="proyect-status">Status: {status}</h4>
+      <h4 className="proyect-category">{category}</h4>
     </div>
   )
 }
