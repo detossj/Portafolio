@@ -8,7 +8,7 @@ import { Proyects } from "./pages/Proyects"
 
 export const PortafolioApp = () => {
 
-    const [data, setData] = useState({})
+    const [data, setData] = useState([])
     
     const getData = async () => {
         try {
@@ -31,7 +31,7 @@ export const PortafolioApp = () => {
     useEffect(() => {
         const fetchData = async () => {
             const datas = await getData();
-            setData(datas);
+            setData(datas.pages);
         }
         fetchData();
     }, [])
@@ -57,8 +57,8 @@ export const PortafolioApp = () => {
                 <LanguagesAndTools/>
             </section>
 
-            <section style={{ height: '100vh', backgroundColor: 'lightyellow' }} >
-                <Proyects datas={data}/>
+            <section style={{ height: '100vh' }} >
+                <Proyects data={data}/>
             </section>
 
             <section style={{ height: '100vh', backgroundColor: 'lightblue' }}>
