@@ -1,6 +1,6 @@
 import { ParticlesBackground } from "../components/ParticlesBackground";
 import '../styles/presentation/presentation.css';
-// import Typewriter from 'typewriter-effect';
+import { Typewriter } from "react-simple-typewriter";
 
 export const Presentation = ({ onClick }) => {
   return (
@@ -8,19 +8,18 @@ export const Presentation = ({ onClick }) => {
       <ParticlesBackground id="particles1" />
       <div className="header">
         <div className="typewriter-container">
-          {/* <Typewriter
-            options={{
-              strings: ['Hi I am Jorge Rubilar'],
-              autoStart: true,
-              loop: true,
-              delay: 50,  // velocidad al escribir
-              deleteSpeed: 50,  // velocidad al borrar
-            }}
-          /> */}
+          <Typewriter
+            words={['Hi I am Jorge Rubilar']}  // Texto a escribir
+            loop={true}                       // Repetir el efecto
+            autoStart={true}                  // Iniciar automáticamente
+            delay={50}                        // Velocidad al escribir (en ms)
+            deleteSpeed={50}                  // Velocidad al borrar (en ms)
+            cursor={true}                     // Mostrar el cursor
+          />
         </div>
         <h4 className="subtitle">A software developer from Chile</h4>
 
-        <button className="buttonPresentation" onClick={ onClick }>Contact Me</button>
+        <button className="buttonPresentation" onClick={onClick}>Contact Me</button>
       </div>
     </div>
   );
