@@ -4,8 +4,7 @@ export const ProyectsCard = ({
   img,
   description,
   repository,
-  status,
-  category
+  status
 }) => {
   return (
     <div className="proyect-card">
@@ -19,7 +18,6 @@ export const ProyectsCard = ({
       <a href={repository} className="proyect-repository">Repository</a><br />
       <a href={url} className="proyect-link">Go to site</a>
       <h4 className="proyect-status">Status: {status}</h4>
-      <h4 className="proyect-category">{category}</h4>
     </div>
   )
 }
