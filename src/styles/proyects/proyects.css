@@ -6,7 +6,7 @@
     height: 100vh;
     background-color: black;
     color: white;
-    padding: 70px;
+    padding: 0px;
     text-align: center;
     
 }
@@ -18,6 +18,15 @@
     font-size: 3rem;
     margin-bottom: 20px;
 }
+
+.proyects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+  grid-template-rows: repeat(2, 1fr); /* 2 filas */
+  gap: 20px; /* Espacio entre elementos */
+  max-width: 800px; /* Ajusta el ancho si es necesario */
+}
+
 .proyect-card {
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -47,7 +56,7 @@
   
   .proyect-img {
     width: 100%;
-    height: auto;
+    height: 100px;
     border-radius: 8px;
   }
   

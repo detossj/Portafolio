@@ -3,7 +3,7 @@ import { ProyectsCard } from "./ProyectsCard";
 
 export const ProyectsList = ({ data }) => {
   return (
-    <div>
+    <div className="proyects-container">
       {
         data.map( page => (
           <ProyectsCard

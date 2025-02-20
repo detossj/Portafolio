@@ -16,7 +16,7 @@
             "name": "GymPage",
             "url": "https://gympagedeto.netlify.app/start",
             "img": "https://raw.githubusercontent.com/detossj/Portafolio/refs/heads/main/public/img/pages/GymPage.webp",
-            "description": "Page for a gym",
+            "description": "Gym page with plans, information and contact.",
             "repository": "https://github.com/detossj/GymPage",
             "status": "In development",
             "category": "Fitness"
@@ -25,7 +25,7 @@
             "id": 3,
             "name": "",
             "url": "",
-            "img": "https://raw.githubusercontent.com/detossj/Portafolio/refs/heads/main/public/img/pages/maintenance.webp",
+            "img": "https://raw.githubusercontent.com/detossj/Portafolio/main/public/img/pages/maintenance.webp",
             "description": "",
             "repository": "",
             "status": "In development",
@@ -33,7 +33,7 @@
         },
         {
             "id": 4,
-            "name": "",
+            "name": "In development",
             "url": "",
             "img": "https://raw.githubusercontent.com/detossj/Portafolio/refs/heads/main/public/img/pages/maintenance.webp",
             "description": "",
@@ -43,7 +43,7 @@
         },
         {
             "id": 5,
-            "name": "",
+            "name": "In development",
             "url": "",
             "img": "https://raw.githubusercontent.com/detossj/Portafolio/refs/heads/main/public/img/pages/maintenance.webp",
             "description": "",
@@ -53,7 +53,7 @@
         },
         {
             "id": 6,
-            "name": "",
+            "name": "In development",
             "url": "",
             "img": "https://raw.githubusercontent.com/detossj/Portafolio/refs/heads/main/public/img/pages/maintenance.webp",
             "description": "",
