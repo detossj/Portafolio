@@ -19,12 +19,13 @@
 }
 .content{
     font-size: 2rem;
-    border-radius: 15px; /* Ajusta el radio si lo necesitas */
-    border: 2px solid white; /* Agrega un borde para que se vea el border-radius */
-    text-align: justify; /* Justifica el texto dentro del párrafo */
+    border: 3px solid gray;
+    border-radius: 15px;
     max-width: 500px; /* Ajusta el tamaño máximo del párrafo */
     padding: 25px; /* Agrega espacio dentro del párrafo */
-    
+
+    hyphens: auto;
+    word-spacing: normal;
 }
 h1{
     margin-top: 20px;

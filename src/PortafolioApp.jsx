@@ -62,7 +62,7 @@ export const PortafolioApp = () => {
                 <Proyects data={data}/>
             </section>
 
-            <section style={{ height: '100vh', backgroundColor: 'lightblue' }}>
+            <section style={{ height: '100vh' }}>
                 <ContactMe ref={ contactRef }/>
             </section>
 
