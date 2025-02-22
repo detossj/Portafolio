@@ -4,7 +4,7 @@ import { ContactMe } from "./pages/ContactMe"
 import { LanguagesAndTools } from "./pages/LanguagesAndTools"
 import { Presentation } from "./pages/Presentation"
 import { Proyects } from "./pages/Proyects"
-
+import '../src/styles/responsive/responsive.css'
 
 export const PortafolioApp = () => {
 

@@ -9,7 +9,7 @@ export const Presentation = ({ onClick }) => {
       <div className="header">
         <div className="typewriter-container">
           <Typewriter
-            words={['Hi I am Jorge Rubilar']}  // Texto a escribir
+            words={["Hi, I'm Jorge Rubilar"]}  // Texto a escribir
             loop={true}                       // Repetir el efecto
             autoStart={true}                  // Iniciar automáticamente
             delay={50}                        // Velocidad al escribir (en ms)

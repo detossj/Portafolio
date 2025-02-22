@@ -15,7 +15,7 @@
             "name": "GymPage",
             "url": "https://gympagedeto.netlify.app/start",
             "img": "https://raw.githubusercontent.com/detossj/Portafolio/refs/heads/main/public/img/pages/GymPage.webp",
-            "description": "Gym page with plans, information and contact along with animations.",
+            "description": "Gym page with plans, information and contact.",
             "repository": "https://github.com/detossj/GymPage",
             "status": "In development"
         },
