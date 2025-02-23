@@ -79,8 +79,7 @@
   text-decoration: underline;
 }
 
-  .proyect-status,
-  .proyect-category {
+  .proyect-status {
     color: #777;
     font-size: 0.8rem;
   }
@@ -90,7 +89,5 @@
     margin-bottom: 5px;
   }
   
-  .proyect-category {
-    margin-bottom: 5px
-  }
+
   

@@ -1,3 +1,80 @@
+
+@media (min-width: 769px) and (max-width: 1366px) {
+
+  /* AboutMe */
+  .title{
+    margin-top: 10px;
+    font-size: 2rem;
+  }
+
+  .content{
+    font-size: 1.5rem;
+  }
+
+  /* LenguagesAndTools */
+  .languages,
+  .tools{
+    margin-top: 10px;
+    font-size: 2rem;
+  }
+
+  .iconWrapper img{
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Proyects */
+  .proyects .title{
+    margin: 0px;
+    font-size: 2rem;
+  }
+
+  .proyect-img{
+    max-width: 90px;
+    max-height: 50px;
+  }
+
+  .proyect-card{
+    max-width: 160px;
+    max-height: 200px;
+  }
+
+  .proyect-card h1 {
+    font-size: 1rem;
+  }
+
+  .proyect-description {
+    font-size: 0.7rem;
+    color: #555;
+    margin: 0px;
+  }
+
+  .proyect-repository,
+  .proyect-link,
+  .proyect-status{
+    font-size: 0.7rem;
+  }
+
+  /* ContactMe */
+
+  .contact{
+    margin-top: 50px;
+  }
+  .contact .title{
+    font-size: 2rem;
+  }
+
+  .about-contact{
+    max-width: 400px;
+    max-height: 400px;
+    margin-top: 0px;
+    gap: 10px;
+  }
+
+ 
+}
+
+
 @media screen and (max-width: 768px) {
     html, body {
       width: 100%;
