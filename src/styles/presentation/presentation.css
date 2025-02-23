@@ -1,14 +1,13 @@
 
-/* Estilo para la cabecera (header) */
+
 .header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ocupar toda la altura de la pantalla */
+    height: 100vh; 
   }
   
-  /* Estilo para el contenedor del typewriter */
   .typewriter-container {
     position: relative; /*Hay que colocar la posicion en relativa para qur queden arriba del fondo*/
     font-size: 48px;
@@ -20,7 +19,6 @@
     transform: scaleX(0.7);
   }
   
-  /* Subtítulo debajo del typewriter */
   .subtitle {
     position: relative; 
     text-align: center;
@@ -42,7 +40,7 @@
     margin-top: 10px;
     padding: 12px 25px;
     border-radius: 8px;
-    border: 2px solid black; /* Borde negro */
+    border: 2px solid black; 
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);

@@ -59,7 +59,7 @@ export const ContactMe = forwardRef((props, ref) => {
 
         </form>
 
-        <div style={{ display: "flex", gap: "10px", fontSize: "2rem" }}>
+        <div className="icons" >
           <a href="https://www.instagram.com/dtossj/" target="_blank" >
             <FaInstagram style={{ color: "#E4405F" }} />
           </a>

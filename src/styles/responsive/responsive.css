@@ -2,20 +2,23 @@
 @media (min-width: 769px) and (max-width: 1366px) {
 
   /* AboutMe */
-  .title{
-    margin-top: 10px;
-    font-size: 2rem;
+  .about .title{
+    margin-top: 5px;
+    font-size: 32px;
+  }
+  .content{
+    font-size: 20px;
   }
 
-  .content{
-    font-size: 1.5rem;
+  .github{
+    margin-top: 5px;
   }
 
   /* LenguagesAndTools */
   .languages,
   .tools{
     margin-top: 10px;
-    font-size: 2rem;
+    font-size: 32px;
   }
 
   .iconWrapper img{
@@ -26,7 +29,7 @@
   /* Proyects */
   .proyects .title{
     margin: 0px;
-    font-size: 2rem;
+    font-size: 32px;
   }
 
   .proyect-img{
@@ -40,11 +43,11 @@
   }
 
   .proyect-card h1 {
-    font-size: 1rem;
+    font-size: 32px;
   }
 
   .proyect-description {
-    font-size: 0.7rem;
+    font-size: 10px;
     color: #555;
     margin: 0px;
   }
@@ -52,16 +55,15 @@
   .proyect-repository,
   .proyect-link,
   .proyect-status{
-    font-size: 0.7rem;
+    font-size: 10px;
   }
 
   /* ContactMe */
 
-  .contact{
-    margin-top: 50px;
-  }
+
   .contact .title{
-    font-size: 2rem;
+    margin-bottom: 10px;
+    font-size: 32px;
   }
 
   .about-contact{
@@ -136,8 +138,8 @@
     }
 
     .proyects-container {
-      gap: 0px; /* Espacio entre elementos */
-      max-width: 100%; /* Ajusta el ancho si es necesario */
+      gap: 0px; 
+      max-width: 100%;
     }
 
     .proyect-card {

@@ -46,25 +46,16 @@ export const PortafolioApp = () => {
 
     return (
         <div>
-            <section style={{ height: '100vh'}} >
-                <Presentation onClick={ scrollToContact }/>
-            </section>
+          
+            <Presentation onClick={ scrollToContact }/>
 
-            <section style={{ height: '100vh' }} >
-                <AboutMe/>
-            </section>
+            <AboutMe/>
 
-            <section style={{ height: '100vh' }} >
-                <LanguagesAndTools/>
-            </section>
+            <LanguagesAndTools/>
 
-            <section style={{ height: '100vh' }} >
-                <Proyects data={data}/>
-            </section>
+            <Proyects data={data}/>
 
-            <section style={{ height: '100vh' }}>
-                <ContactMe ref={ contactRef }/>
-            </section>
+            <ContactMe ref={ contactRef }/>
 
         </div>
   )

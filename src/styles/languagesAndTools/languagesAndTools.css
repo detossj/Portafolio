@@ -8,10 +8,8 @@
     height: 100vh;
     max-width: 100vw;
     color: white;
-    margin-top: 30px;
     padding: 70px;
-    flex-grow: 1;
-    overflow: hidden;
+
 }
 .languagesIcons{
     margin-top: 10px;
@@ -32,13 +30,10 @@
     justify-content: center;
     gap: 60px;
 }
-.languages{
-    margin-top: 20px;
-    font-size: 48px;
-}
+.languages,
 .tools{
-    margin-top: 20px;
-    font-size: 48px;
+    
+    font-size: 36px;
 }
 
 .iconWrapper {
